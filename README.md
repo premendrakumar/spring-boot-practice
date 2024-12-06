@@ -15,7 +15,7 @@ This repository serves as a structured learning path for mastering **Spring Boot
   - **Hello Spring Boot**:
     - A simple REST API returning "Hello, World!"
     - Concepts: `@RestController`, `@RequestMapping`, and `@SpringBootApplication`
-    - [Code Link](./hello-spring-boot)
+    - [Code Link](./poc-projects/hello-spring-boot)
   - **Configuration Basics**:
     - A project exploring `application.properties` and YAML configuration.
     - [Code Link](./configuration-basics)
@@ -132,14 +132,23 @@ This repository serves as a structured learning path for mastering **Spring Boot
 
 ```
 spring-boot-learning/
-├── hello-spring-boot/         # Basic project for getting started
-├── employee-management-system/ # CRUD project with JPA
-├── library-management-api/     # REST API with pagination
-├── secure-banking-api/         # Secure API with Spring Security
-├── microservices-example/      # Microservices with Spring Cloud
-├── dockerized-spring-boot/     # Docker container example
-└── spring-boot-kubernetes/     # Kubernetes deployment example
+├── poc-projects/                 # All basic projects {in-progress}
+   ├── hello-spring-boot/         # Basic project for getting started {in-progress}
+├── employee-management-system/ # CRUD project with JPA {TBD}
+├── library-management-api/     # REST API with pagination {TBD}
+├── secure-banking-api/         # Secure API with Spring Security {TBD}
+├── microservices-example/      # Microservices with Spring Cloud {TBD}
+├── dockerized-spring-boot/     # Docker container example {TBD}
+└── spring-boot-kubernetes/     # Kubernetes deployment example {TBD}
 ```
+
+---
+
+## References
+- [references.md](./references.md)
+- [documentation.md](./documentation.md)
+- [version-info.md](./version-details.md)
+- [key-terminologies.md](./key-terminologies.md)
 
 ---
 
