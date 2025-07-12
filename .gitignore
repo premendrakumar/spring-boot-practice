@@ -1,0 +1,9 @@
+**/target/
+
+**/.settings/
+**/.idea/
+**/*.class
+**/*.iml
+**/.mvn/**
+**/.gradle/**
+
