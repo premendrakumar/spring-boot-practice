@@ -11,7 +11,7 @@
 	<groupId>com.spp.demo</groupId>
 	<artifactId>hello-spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Hello World</name>
+	<name>hello-spring-boot</name>
 	<description>Spring Boot to demonstrate basic rest api set up</description>
 	<url/>
 	<licenses>

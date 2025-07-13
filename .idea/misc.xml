@@ -5,6 +5,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/poc-projects/hello-spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/poc-projects/springsecsection1/pom.xml" />
+        <option value="$PROJECT_DIR$/poc-projects/springsecsection2/pom.xml" />
+        <option value="$PROJECT_DIR$/poc-projects/springsecsection3/pom.xml" />
+        <option value="$PROJECT_DIR$/poc-projects/springsecsection4/pom.xml" />
+        <option value="$PROJECT_DIR$/poc-projects/springsecsection6/pom.xml" />
+        <option value="$PROJECT_DIR$/poc-projects/springsecsection7/pom.xml" />
+        <option value="$PROJECT_DIR$/poc-projects/springsecsection9/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2-practice/spring-security-1/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices/student-v1/pom.xml" />
       </list>
     </option>
   </component>

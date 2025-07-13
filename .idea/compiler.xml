@@ -6,14 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springsecsection1" />
+        <module name="springsecsection2" />
+        <module name="springsecsection3" />
+        <module name="springsecsection4" />
+        <module name="springsecsection6" />
+        <module name="springsecsection7" />
+        <module name="springsecsection9" />
+        <module name="spring-security-1" />
       </profile>
-      <profile name="Annotation profile for Hello World" enabled="true">
+      <profile name="Annotation profile for student-v1" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
+        <module name="student" />
         <module name="hello-spring-boot" />
       </profile>
     </annotationProcessing>
@@ -21,6 +31,15 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hello-spring-boot" options="-parameters" />
+      <module name="spring-security-1" options="-parameters" />
+      <module name="springsecsection1" options="-parameters" />
+      <module name="springsecsection2" options="-parameters" />
+      <module name="springsecsection3" options="-parameters" />
+      <module name="springsecsection4" options="-parameters" />
+      <module name="springsecsection6" options="-parameters" />
+      <module name="springsecsection7" options="-parameters" />
+      <module name="springsecsection9" options="-parameters" />
+      <module name="student" options="-parameters" />
     </option>
   </component>
 </project>

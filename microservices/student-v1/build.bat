@@ -1,0 +1,1 @@
+docker build . -t sameer426/student:v1
